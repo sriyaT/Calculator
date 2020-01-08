@@ -1,0 +1,53 @@
+.my-calc {
+    border: 2px solid red;
+    height: 480px;
+    width: 293px;
+    margin-left: 270px;
+}
+
+.my-input {
+    height: 100px;
+    width: 98%;
+    text-align: right;
+    background-color: rgb(73, 52, 57);
+    color: white;
+    font-size: 46px;
+
+}
+
+.button-values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+
+}
+
+.clear {
+    height: 82px;
+    width: 75%;
+    margin: 0px;
+}
+
+.devide {
+    height: 82px;
+    width: 25%;
+
+}
+
+.number {
+    height: 73px;
+    width: 25%;
+}
+
+#sign {
+    background-color: rgb(255, 0, 37);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
